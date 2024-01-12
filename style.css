@@ -12,7 +12,7 @@ body {
 .card {
     width: 25em;
     padding: 16px;
-    margin-top: 25%;
+    margin-top: 164px;
     background-color: #FFFFFF;
     border-radius: 10px;
     box-shadow: 0 30px 100px 0 rgba(17, 23, 41, 0.05);
@@ -39,11 +39,12 @@ body {
     font-size: 18px;
     font-weight: 700;
     color: #20293A;
+    margin: 0;
 }
 
 .blog-description {
     font-size: 14px;
-    margin-bottom: 20px;
+    margin: 6px 0 20px;
     color: #6C727F;
 }
 
