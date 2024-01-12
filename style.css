@@ -8,16 +8,10 @@ body {
     margin: auto auto;
 }
 
-/* .container {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-} */
 
 .card {
-    width: 336px;
+    width: 25em;
     padding: 16px;
-    /* border: 5px solid red; */
     margin-top: 25%;
     background-color: #FFFFFF;
     border-radius: 10px;
@@ -38,22 +32,33 @@ body {
     font-size: 10px;
     border: 0;
     border-radius: 10px;
+    margin-bottom: 16px;
 }
 
 .blog-title {
     font-size: 18px;
     font-weight: 700;
+    color: #20293A;
 }
 
 .blog-description {
     font-size: 14px;
+    margin-bottom: 20px;
+    color: #6C727F;
 }
 
 hr {
-    /* border: 0.1px solid lightgray; */
+    opacity: 0.4;
 }
 
 .blog-author {
     font-size: 12px;
-    margin: 16px 0;
+    color: #6C727F;
+
+
 }
+
+
+
+/* Responsive Style */
+@media screen and (max-width: 640px) {}
